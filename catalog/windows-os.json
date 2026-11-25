@@ -1,0 +1,125 @@
+{
+  "version": 1,
+  "updatedAt": "2026-11-25T00:00:00Z",
+  "projects": [
+    {
+      "id": "atlas-os",
+      "name": "AtlasOS",
+      "category": "os-playbook",
+      "summary": "A Windows 11 configuration project that applies the Atlas Playbook through Atlas Manager.",
+      "windowsVersions": ["Windows 11"],
+      "approach": "Start from a fresh, supported Windows 11 installation and follow the official Atlas Manager guide.",
+      "caution": "Atlas changes Windows settings and removes components. Back up files first and review the current security and compatibility guidance.",
+      "websiteUrl": "https://atlasos.net/",
+      "guideUrl": "https://atlasos.net/docs/install/manager/",
+      "sourceUrl": "https://github.com/Atlas-OS/Atlas"
+    },
+    {
+      "id": "revi-os",
+      "name": "ReviOS",
+      "category": "os-playbook",
+      "summary": "A privacy- and performance-focused Windows playbook delivered through the open-source AME Wizard.",
+      "windowsVersions": ["Windows 10", "Windows 11"],
+      "approach": "Use the official guide to apply the playbook to an existing Windows install or inject it into a stock Windows ISO.",
+      "caution": "This makes system-wide changes. Review each step, create backups, and use only a clean Windows image from Microsoft.",
+      "websiteUrl": "https://revi.cc/",
+      "guideUrl": "https://revi.cc/docs/",
+      "sourceUrl": "https://github.com/meetrevision/playbook"
+    },
+    {
+      "id": "tiny11-builder",
+      "name": "Tiny11 Builder",
+      "category": "image-builder",
+      "summary": "An open-source utility for building a smaller customized Windows 11 image from a clean Microsoft ISO.",
+      "windowsVersions": ["Windows 11"],
+      "approach": "Download the builder from its official repository and provide your own Microsoft Windows 11 ISO.",
+      "caution": "Removing Windows components can affect features and updates. Read the project documentation and test the resulting image before using it on a primary PC.",
+      "websiteUrl": "https://github.com/ntdevlabs/tiny11builder",
+      "guideUrl": "https://github.com/ntdevlabs/tiny11builder#readme",
+      "sourceUrl": "https://github.com/ntdevlabs/tiny11builder"
+    },
+    {
+      "id": "winutil",
+      "name": "Chris Titus Tech WinUtil",
+      "category": "optimization-tool",
+      "summary": "A community Windows setup and maintenance utility for installing apps and applying configuration, tweak, and repair options.",
+      "windowsVersions": ["Windows 10", "Windows 11"],
+      "approach": "Review the selected options in the official project before applying them; use its documentation for supported Windows releases.",
+      "caution": "Some actions modify system configuration or remove bundled apps. Review selections and create a restore point first.",
+      "websiteUrl": "https://github.com/ChrisTitusTech/winutil",
+      "guideUrl": "https://github.com/ChrisTitusTech/winutil#readme",
+      "sourceUrl": "https://github.com/ChrisTitusTech/winutil"
+    },
+    {
+      "id": "win11-debloat",
+      "name": "Win11Debloat",
+      "category": "optimization-tool",
+      "summary": "An open-source PowerShell script for removing unwanted apps and adjusting Windows privacy and interface settings.",
+      "windowsVersions": ["Windows 10", "Windows 11"],
+      "approach": "Read the script options and run only the actions you want from the official repository.",
+      "caution": "PowerShell changes can remove apps or alter settings. Review the script and its current Windows compatibility notes before running it.",
+      "websiteUrl": "https://github.com/Raphire/Win11Debloat",
+      "guideUrl": "https://github.com/Raphire/Win11Debloat#readme",
+      "sourceUrl": "https://github.com/Raphire/Win11Debloat"
+    },
+    {
+      "id": "sophia-script",
+      "name": "Sophia Script",
+      "category": "customization-tool",
+      "summary": "A modular PowerShell customization project with documented Windows privacy and usability settings.",
+      "windowsVersions": ["Windows 10", "Windows 11"],
+      "approach": "Use the official documentation to select and review individual script functions.",
+      "caution": "This is an advanced script toolkit. Understand each selected function and keep a backup before applying system changes.",
+      "websiteUrl": "https://github.com/farag2/Sophia-Script-for-Windows",
+      "guideUrl": "https://github.com/farag2/Sophia-Script-for-Windows#readme",
+      "sourceUrl": "https://github.com/farag2/Sophia-Script-for-Windows"
+    },
+    {
+      "id": "winhance",
+      "name": "Winhance",
+      "category": "customization-tool",
+      "summary": "An open-source Windows app for configuring, customizing, and debloating Windows installations.",
+      "windowsVersions": ["Windows 10", "Windows 11"],
+      "approach": "Use the official repository for current releases, supported versions, and installation instructions.",
+      "caution": "Debloat and system configuration actions may affect installed apps or Windows features. Review changes before applying them.",
+      "websiteUrl": "https://github.com/memstechtips/Winhance",
+      "guideUrl": "https://github.com/memstechtips/Winhance#readme",
+      "sourceUrl": "https://github.com/memstechtips/Winhance"
+    },
+    {
+      "id": "bloatynosy",
+      "name": "BloatyNosy",
+      "category": "optimization-tool",
+      "summary": "An open-source Windows 11 debloat and configuration utility from Builtbybel.",
+      "windowsVersions": ["Windows 11"],
+      "approach": "Check the official repository for the latest project status and supported installation method.",
+      "caution": "Debloating can remove apps or disable features. Create a restore point and review each proposed change.",
+      "websiteUrl": "https://github.com/builtbybel/BloatyNosy",
+      "guideUrl": "https://github.com/builtbybel/BloatyNosy#readme",
+      "sourceUrl": "https://github.com/builtbybel/BloatyNosy"
+    },
+    {
+      "id": "shutup10",
+      "name": "O&O ShutUp10++",
+      "category": "privacy-tool",
+      "summary": "A Windows privacy configuration utility with documented controls for Windows 10 and Windows 11.",
+      "windowsVersions": ["Windows 10", "Windows 11"],
+      "approach": "Review the available privacy recommendations and use the official O&O download and documentation.",
+      "caution": "Privacy settings can affect Windows services and app behavior. Review each recommendation and export settings before changing them.",
+      "websiteUrl": "https://www.oo-software.com/en/shutup10",
+      "guideUrl": "https://www.oo-software.com/en/shutup10",
+      "sourceUrl": "https://www.oo-software.com/en/shutup10"
+    },
+    {
+      "id": "winaero-tweaker",
+      "name": "Winaero Tweaker",
+      "category": "customization-tool",
+      "summary": "A Windows interface and behavior customization utility maintained by Winaero.",
+      "windowsVersions": ["Windows 10", "Windows 11"],
+      "approach": "Use the official product page for compatibility notes and downloads.",
+      "caution": "Some tweaks change system or user settings. Review each option and use the built-in reset or backup guidance when available.",
+      "websiteUrl": "https://winaero.com/winaero-tweaker/",
+      "guideUrl": "https://winaero.com/winaero-tweaker/"
+    }
+  ]
+}
